@@ -1,3 +1,4 @@
+let range = document.querySelector(".passwordRange");
 let password = document.querySelector(".password");
 let small = document.querySelector(".small");
 let capital = document.querySelector(".capital");
@@ -33,19 +34,6 @@ function isTrueCheckbox() {
     }
 }
   
-function Copied_function(element) {
-    let copyText = element.textContent;
-    navigator.clipboard
-        .writeText(copyText)
-        .then((text) => {
-    
-        })
-        .catch((err) => {
-        
-            console.log("Error", err);
-        });
-}
-
 var input = document.getElementById('run');
 var list = document.getElementById('list');
 var wrapper = document.getElementById('big');
@@ -61,5 +49,5 @@ function generate() {
         wrapper.style.display = 'none';
     });
   }
-  for (var j = 0; j < x; j++) gen_pass();
+  for (var j = 0; j < x; j++) gen_pass(range.value);
 }

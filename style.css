@@ -57,12 +57,7 @@ p {
     color: #393232;
     font-weight:bold;
 }
-.copy {
-    background: #DFD3D3;
-    font-size: 7px;
-    border: 0px;
-    border-radius: 8px;
-}
+
 .password {
     width: fit-content;
     height: fit-content;

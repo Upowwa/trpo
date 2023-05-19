@@ -56,6 +56,10 @@ function Copied_function(element) {
     });
 }
 
+//passwordWrapper.addEventListener("click", () => {
+//  Copied_function(password);
+//});
+
 function gen_pass() {
   
   let passwordLength = range.value;
@@ -130,7 +134,6 @@ function generate() {
   }
   for (var j = 0; j < x; j++) gen_pass();
 }
-
 
 
 
